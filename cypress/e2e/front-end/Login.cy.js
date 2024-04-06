@@ -1,5 +1,5 @@
 describe('Logearse', () => {
-    it('TC-003: FE |login ', () => {
+    it('TC-003: NA |login ', () => {
         cy.visit('http://www.testingyes.com/onlineshop')
         cy.get('a > .hidden-sm-down').click();
         cy.get('.col-md-6 > .form-control').type('ylatanvargasr@gmail.com')

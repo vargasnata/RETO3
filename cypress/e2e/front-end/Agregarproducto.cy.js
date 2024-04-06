@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
-describe('Cart feature', () => {
-it('TC-001: FE | Add new product to cart', () => {
+describe('Seleccionar y agregar un producto al carrito', () => {
+it('TC-001: NA | Seleccionar y agregar un producto al carrito', () => {
     cy.visit('http://www.testingyes.com/onlineshop/')
     cy.get('[data-id-product="3"] > .thumbnail-container > .thumbnail > img').click();
     cy.get('.add > .btn').click();
